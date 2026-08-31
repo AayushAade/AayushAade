@@ -178,6 +178,16 @@ My focus is on building real-time AI applications and end-to-end intelligent sys
 
 ---
 
+### 📈 Activity & Contribution Map
+
+<div align="center">
+  <a href="https://github.com/AayushAade" target="_blank">
+    <img src="https://ghchart.rshah.org/7aa2f7/AayushAade" alt="Aayush Aade Contribution Activity Map" width="100%" />
+  </a>
+</div>
+
+---
+
 ### 📜 Certifications
 
 - 🏅 **Machine Learning Specialization** — *DeepLearning.AI & Stanford University (Andrew Ng)* `[Jul 2026]`
