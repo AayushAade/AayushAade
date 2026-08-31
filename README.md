@@ -47,18 +47,65 @@ My focus is on building real-time AI applications and end-to-end intelligent sys
 
 | Domain | Technologies |
 | :--- | :--- |
-| **Languages** | ![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black) ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) |
-| **AI & Machine Learning** | ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-FF6F00?style=flat-square&logo=scikitlearn&logoColor=white) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white) ![YOLOv8](https://img.shields.io/badge/YOLOv8-00FFFF?style=flat-square&logo=ultralytics&logoColor=black) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white) |
-| **Web & Backend** | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white) |
-| **Database** | ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) |
-| **Tools & Platforms** | ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white) ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white) |
+| **Languages** | <a href="https://en.cppreference.com/w/c" target="_blank"><img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black" alt="C" /></a> <a href="https://isocpp.org/" target="_blank"><img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++" /></a> <a href="https://www.python.org/" target="_blank"><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" /></a> |
+| **AI & Machine Learning** | <a href="https://scikit-learn.org/" target="_blank"><img src="https://img.shields.io/badge/Machine%20Learning-FF6F00?style=flat-square&logo=scikitlearn&logoColor=white" alt="Machine Learning" /></a> <a href="https://opencv.org/" target="_blank"><img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV" /></a> <a href="https://docs.ultralytics.com/" target="_blank"><img src="https://img.shields.io/badge/YOLOv8-00FFFF?style=flat-square&logo=ultralytics&logoColor=black" alt="YOLOv8" /></a> <a href="https://numpy.org/" target="_blank"><img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy" /></a> <a href="https://pandas.pydata.org/" target="_blank"><img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="Pandas" /></a> |
+| **Web & Backend** | <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank"><img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5" /></a> <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"><img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" /></a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" /></a> <a href="https://flask.palletsprojects.com/" target="_blank"><img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" alt="Flask" /></a> |
+| **Database** | <a href="https://www.mysql.com/" target="_blank"><img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" /></a> |
+| **Tools & Platforms** | <a href="https://git-scm.com/" target="_blank"><img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" /></a> <a href="https://github.com/" target="_blank"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a> <a href="https://code.visualstudio.com/" target="_blank"><img src="https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white" alt="VS Code" /></a> |
 
 </div>
 
 <br/>
 
+<!-- Individual Interactive Tech Logos -->
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=c,cpp,py,html,css,js,flask,mysql,git,github,vscode&theme=dark" alt="Tech Stack Icons" />
+  <a href="https://en.cppreference.com/w/c" target="_blank" title="C">
+    <img src="https://skillicons.dev/icons?i=c" height="42" alt="C" />
+  </a>
+  &nbsp;
+  <a href="https://isocpp.org/" target="_blank" title="C++">
+    <img src="https://skillicons.dev/icons?i=cpp" height="42" alt="C++" />
+  </a>
+  &nbsp;
+  <a href="https://www.python.org/" target="_blank" title="Python">
+    <img src="https://skillicons.dev/icons?i=py" height="42" alt="Python" />
+  </a>
+  &nbsp;
+  <a href="https://opencv.org/" target="_blank" title="OpenCV">
+    <img src="https://skillicons.dev/icons?i=opencv" height="42" alt="OpenCV" />
+  </a>
+  &nbsp;
+  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" title="HTML5">
+    <img src="https://skillicons.dev/icons?i=html" height="42" alt="HTML5" />
+  </a>
+  &nbsp;
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" title="CSS3">
+    <img src="https://skillicons.dev/icons?i=css" height="42" alt="CSS3" />
+  </a>
+  &nbsp;
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" title="JavaScript">
+    <img src="https://skillicons.dev/icons?i=js" height="42" alt="JavaScript" />
+  </a>
+  &nbsp;
+  <a href="https://flask.palletsprojects.com/" target="_blank" title="Flask">
+    <img src="https://skillicons.dev/icons?i=flask" height="42" alt="Flask" />
+  </a>
+  &nbsp;
+  <a href="https://www.mysql.com/" target="_blank" title="MySQL">
+    <img src="https://skillicons.dev/icons?i=mysql" height="42" alt="MySQL" />
+  </a>
+  &nbsp;
+  <a href="https://git-scm.com/" target="_blank" title="Git">
+    <img src="https://skillicons.dev/icons?i=git" height="42" alt="Git" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/" target="_blank" title="GitHub">
+    <img src="https://skillicons.dev/icons?i=github" height="42" alt="GitHub" />
+  </a>
+  &nbsp;
+  <a href="https://code.visualstudio.com/" target="_blank" title="VS Code">
+    <img src="https://skillicons.dev/icons?i=vscode" height="42" alt="VS Code" />
+  </a>
 </div>
 
 ---
