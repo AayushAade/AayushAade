@@ -159,15 +159,21 @@ My focus is on building real-time AI applications and end-to-end intelligent sys
   <table border="0">
     <tr>
       <td>
-        <img src="./profile/stats.svg" alt="GitHub Stats" width="100%" />
+        <a href="https://github.com/AayushAade" target="_blank">
+          <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=AayushAade&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7aa2f7&icon_color=7dcfff&text_color=c0caf5" alt="Aayush's GitHub Stats" />
+        </a>
       </td>
       <td>
-        <img src="./profile/top-langs.svg" alt="Top Languages" width="100%" />
+        <a href="https://github.com/AayushAade?tab=repositories" target="_blank">
+          <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=AayushAade&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7aa2f7&text_color=c0caf5" alt="Top Languages" />
+        </a>
       </td>
     </tr>
   </table>
   <br/>
-  <img src="https://streak-stats.demolab.com/?user=AayushAade&theme=tokyonight&hide_border=true&background=0d1117&ring=7aa2f7&fire=ff9e64&currStreakNum=7dcfff" alt="GitHub Streak" />
+  <a href="https://github.com/AayushAade" target="_blank">
+    <img src="https://streak-stats.demolab.com/?user=AayushAade&theme=tokyonight&hide_border=true&background=0d1117&ring=7aa2f7&fire=ff9e64&currStreakNum=7dcfff" alt="GitHub Streak" />
+  </a>
 </div>
 
 ---
