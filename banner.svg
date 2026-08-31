@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 240" width="100%" height="240" fill="none">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070a13" />
+      <stop offset="50%" stop-color="#0b1120" />
+      <stop offset="100%" stop-color="#030712" />
+    </linearGradient>
+
+    <!-- Glowing Accent Gradients -->
+    <radialGradient id="indigoGlow" cx="20%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#4f46e5" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#4f46e5" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="cyanGlow" cx="85%" cy="70%" r="50%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="purpleGlow" cx="80%" cy="20%" r="45%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.28" />
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Text Gradients -->
+    <linearGradient id="titleGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="50%" stop-color="#e0e7ff" />
+      <stop offset="100%" stop-color="#a5b4fc" />
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#818cf8" />
+      <stop offset="50%" stop-color="#c084fc" />
+      <stop offset="100%" stop-color="#38bdf8" />
+    </linearGradient>
+    <linearGradient id="badgeBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.2" />
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="techGrid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#1e293b" stroke-width="0.6" stroke-opacity="0.5" />
+      <circle cx="30" cy="0" r="1" fill="#38bdf8" fill-opacity="0.3" />
+    </pattern>
+
+    <!-- Drop Shadow Filter -->
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.6" />
+    </filter>
+  </defs>
+
+  <style>
+    .font-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+    .font-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .tag-text { font-size: 11.5px; fill: #cbd5e1; font-weight: 500; letter-spacing: 0.5px; }
+  </style>
+
+  <!-- Base Card Background with Border -->
+  <rect width="900" height="240" rx="14" fill="url(#bgGradient)" />
+  <rect width="900" height="240" rx="14" fill="url(#techGrid)" />
+  <rect width="900" height="240" rx="14" fill="url(#indigoGlow)" />
+  <rect width="900" height="240" rx="14" fill="url(#purpleGlow)" />
+  <rect width="900" height="240" rx="14" fill="url(#cyanGlow)" />
+  <rect x="0.75" y="0.75" width="898.5" height="238.5" rx="13.25" fill="none" stroke="url(#badgeBorder)" stroke-width="1.5" />
+
+  <!-- Neural Network / Circuit Graphic Lines & Nodes (Right Side) -->
+  <g opacity="0.85" transform="translate(600, 20)">
+    <!-- Circuit connection lines -->
+    <path d="M 40 40 L 90 80 L 170 50 L 230 90" fill="none" stroke="#6366f1" stroke-width="1.2" stroke-dasharray="4,4" opacity="0.5" />
+    <path d="M 90 80 L 120 140 L 200 150" fill="none" stroke="#38bdf8" stroke-width="1.2" opacity="0.4" />
+    <path d="M 170 50 L 200 150 L 250 170" fill="none" stroke="#a855f7" stroke-width="1.2" opacity="0.5" />
+    <path d="M 20 110 L 90 80 L 120 140 L 70 180" fill="none" stroke="#4f46e5" stroke-width="1.2" opacity="0.4" />
+    <path d="M 120 140 L 160 190 L 250 170" fill="none" stroke="#06b6d4" stroke-width="1" stroke-dasharray="3,3" opacity="0.6" />
+
+    <!-- Connected Nodes -->
+    <circle cx="40" cy="40" r="3.5" fill="#818cf8" />
+    <circle cx="90" cy="80" r="5" fill="#38bdf8" />
+    <circle cx="90" cy="80" r="9" fill="none" stroke="#38bdf8" stroke-width="1" opacity="0.5" />
+    
+    <circle cx="170" cy="50" r="4.5" fill="#c084fc" />
+    <circle cx="230" cy="90" r="3.5" fill="#818cf8" />
+    <circle cx="120" cy="140" r="5.5" fill="#6366f1" />
+    <circle cx="120" cy="140" r="11" fill="none" stroke="#6366f1" stroke-width="1" opacity="0.4" />
+    
+    <circle cx="200" cy="150" r="4" fill="#38bdf8" />
+    <circle cx="250" cy="170" r="3" fill="#a855f7" />
+    <circle cx="20" cy="110" r="3" fill="#60a5fa" />
+    <circle cx="70" cy="180" r="4" fill="#818cf8" />
+    <circle cx="160" cy="190" r="3.5" fill="#06b6d4" />
+  </g>
+
+  <!-- Left Accent Tech Indicator -->
+  <g transform="translate(52, 42)">
+    <rect x="0" y="0" width="130" height="24" rx="12" fill="#1e1b4b" fill-opacity="0.8" stroke="#4338ca" stroke-width="1" />
+    <circle cx="12" cy="12" r="4" fill="#22c55e" />
+    <circle cx="12" cy="12" r="7" fill="#22c55e" fill-opacity="0.25" />
+    <text x="24" y="16" class="font-mono" font-size="10.5" fill="#a5b4fc" font-weight="600" letter-spacing="0.5">AI &amp; SYSTEMS</text>
+  </g>
+
+  <!-- Main Title -->
+  <text x="52" y="106" class="font-sans" font-size="34" font-weight="800" fill="url(#titleGradient)" letter-spacing="-0.5">
+    Hi, I'm Aayush Aade
+  </text>
+
+  <!-- Subtitle -->
+  <text x="52" y="136" class="font-sans" font-size="15.5" font-weight="500" fill="url(#accentGradient)" letter-spacing="0.2">
+    AI &amp; Data Science Student | Aspiring AI Engineer &amp; Systems Builder
+  </text>
+
+  <!-- Tagline / Pillars (Capsules) -->
+  <g transform="translate(52, 164)">
+    <!-- Capsule 1: Computer Vision -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="145" height="30" rx="7" fill="#0f172a" fill-opacity="0.8" stroke="#334155" stroke-width="1" />
+      <circle cx="14" cy="15" r="3" fill="#38bdf8" />
+      <text x="25" y="19.5" class="font-sans tag-text">Computer Vision</text>
+    </g>
+
+    <!-- Capsule 2: Machine Learning -->
+    <g transform="translate(155, 0)">
+      <rect x="0" y="0" width="150" height="30" rx="7" fill="#0f172a" fill-opacity="0.8" stroke="#334155" stroke-width="1" />
+      <circle cx="14" cy="15" r="3" fill="#818cf8" />
+      <text x="25" y="19.5" class="font-sans tag-text">Machine Learning</text>
+    </g>
+
+    <!-- Capsule 3: Real-Time AI Systems -->
+    <g transform="translate(315, 0)">
+      <rect x="0" y="0" width="175" height="30" rx="7" fill="#0f172a" fill-opacity="0.8" stroke="#334155" stroke-width="1" />
+      <circle cx="14" cy="15" r="3" fill="#c084fc" />
+      <text x="25" y="19.5" class="font-sans tag-text">Real-Time AI Systems</text>
+    </g>
+  </g>
+
+</svg>
